@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "brando-ng-schematics": {
+      "description": "A blank schematic.",
+      "factory": "./brando-ng-schematics/index#brandoNgSchematics"
+    },
+    "init-brando-scss": {
+      "description": "Initializing Angular project with Brando scss structure",
+      "factory": "./init-brando-scss/index#initBrandoScss"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  // background-image: url("#{$cdn-path}/assets/images/gray_watermark_mini_flowers.gif");
+  // background-repeat: repeat;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  // overflow-y: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+.alert-danger {
+  margin-top: 2px;
+  background-image: -webkit-linear-gradient(top, #f2dede 0, #e7c3c3 100%);
+  background-image: -o-linear-gradient(top, #f2dede 0, #e7c3c3 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f2dede),
+    to(#e7c3c3)
+  );
+  background-image: linear-gradient(to bottom, #f2dede 0, #e7c3c3 100%);
+  background-repeat: repeat-x;
+  border-color: #dca7a7;
+  @include RoundedCorners(3px);
+  font-size: 10px;
+  color: #8a0000;
+  padding: 4px;
+}
