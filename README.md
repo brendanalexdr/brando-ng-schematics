@@ -8,7 +8,13 @@ My own schematics
 - Create styles.scss
 - Update package json with sanitize.css
 - Move app.component to "app-root" folder
-- Init-brando-scss
+## Install Gulp depenencies
+```javascript 
+ "gulp": "4.0.2",
+ "gulp-image": "^6.1.0",
+ "gulp-nop": "0.0.3",
+ "gulp-plumber": "^1.2.1"
+```
 ## Update package.json browserlist (delete browserlist file)
 ```javascript
  "browserslist": [
