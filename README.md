@@ -9,7 +9,7 @@ My own schematics
 - Update package json with sanitize.css
 - Move app.component to "app-root" folder
 ## Install Gulp depenencies
-```javascript
+```json
  "@types/node": "^12.11.1",
  "del": "^5.1.0",
  "fs": "0.0.1-security"
@@ -19,7 +19,7 @@ My own schematics
  "gulp-plumber": "^1.2.1"
 ```
 ## Update package.json browserlist (delete browserlist file)
-```javascript
+```json
  "browserslist": [
     "> 1%",
     "ie >= 8",
@@ -35,7 +35,7 @@ My own schematics
   ]
   ```
 ## Add script lines to package.json
-```javascript
+```json
  "scripts": {
     "ng-build": "ng build --prod --aot",
     "gulp-copy-img": "gulp copyOptimizeImages",
@@ -44,5 +44,26 @@ My own schematics
     "scully:serve": "scully serve"
   }
   ```
-
+## RxJS: Avoiding rxjs-compat
+- [RxJS: Avoiding rxjs-compat](https://medium.com/@cartant/rxjs-avoiding-rxjs-compat-4b79a566359b)
+- [rxjs-tslint-rules](https://github.com/cartant/rxjs-tslint-rules)
  
+Install the package using NPM:
+
+    npm install rxjs-tslint-rules --save-dev
+
+Update `tslint.json` file to extend this package:
+
+```json
+{
+  "extends": [
+    "rxjs-tslint-rules"
+  ],
+  "rules": {
+    "rxjs-add": { "severity": "error" },
+    "rxjs-no-unused-add": { "severity": "error" },
+  "rxjs-no-compat": true
+  }
+  
+}
+```
