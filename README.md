@@ -10,16 +10,19 @@ My own schematics
 - Move app.component to "app-root" folder
 ## Install Gulp depenencies
 ```json
+{
  "@types/node": "^12.11.1",
  "del": "^5.1.0",
- "fs": "0.0.1-security"
+ "fs": "0.0.1-security",
  "gulp": "4.0.2",
  "gulp-image": "^6.1.0",
  "gulp-nop": "0.0.3",
  "gulp-plumber": "^1.2.1"
+}
 ```
 ## Update package.json browserlist (delete browserlist file)
 ```json
+{
  "browserslist": [
     "> 1%",
     "ie >= 8",
@@ -33,9 +36,11 @@ My own schematics
     "android >= 4",
     "bb >= 10"
   ]
+}
   ```
 ## Add script lines to package.json
 ```json
+{
  "scripts": {
     "ng-build": "ng build --prod --aot",
     "gulp-copy-img": "gulp copyOptimizeImages",
@@ -43,6 +48,7 @@ My own schematics
     "scully": "scully",
     "scully:serve": "scully serve"
   }
+}  
   ```
 ## RxJS: Avoiding rxjs-compat
 - [RxJS: Avoiding rxjs-compat](https://medium.com/@cartant/rxjs-avoiding-rxjs-compat-4b79a566359b)
