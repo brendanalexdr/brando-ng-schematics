@@ -3,6 +3,10 @@
 My own schematics
 
 ## Init
+    ng new project --style=scss --skipTests=true --routing=true --force=true
+    
+    schematics ../../../Schematics/brando-ng-schematics/src/collection.json:init-brando-scss --dry-run=false
+
 
 - Create styles folder with structure
 - Create styles.scss
@@ -20,6 +24,7 @@ My own schematics
  "gulp-plumber": "^1.2.1"
 }
 ```
+- Create gulpfile.js folder with code
 ## Update package.json browserlist (delete browserlist file)
 ```json
 {
