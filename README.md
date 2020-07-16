@@ -7,11 +7,18 @@ My own schematics
     
     schematics ../../../Schematics/brando-ng-schematics/src/collection.json:init-brando-scss --dry-run=false
 
+- Move app.component to "app-root" folder/update app.modules
 
-- Create styles folder with structure
-- Create styles.scss
-- Update package json with sanitize.css
-- Move app.component to "app-root" folder
+## Init styles
+To package json
+
+    npm install sanitize.css --save
+-  create styles.scss
+-  create styles folder structure with boilerplate
+
+
+
+
 ## Install Gulp depenencies
 ```json
 {
