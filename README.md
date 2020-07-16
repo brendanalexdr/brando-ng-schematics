@@ -9,7 +9,10 @@ My own schematics
 - Update package json with sanitize.css
 - Move app.component to "app-root" folder
 ## Install Gulp depenencies
-```javascript 
+```javascript
+ "@types/node": "^12.11.1",
+ "del": "^5.1.0",
+ "fs": "0.0.1-security"
  "gulp": "4.0.2",
  "gulp-image": "^6.1.0",
  "gulp-nop": "0.0.3",
