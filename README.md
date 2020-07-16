@@ -9,7 +9,16 @@ My own schematics
 - Update package json with sanitize.css
 - Move app.component to "app-root" folder
 - Init-brando-scss
+- Update package.json browserlist (delete browserlist file)
 - Add script lines to package.json
-> Script line 1
+```javascript
+ "scripts": {
+    "ng-build": "ng build --prod --aot",
+    "gulp-copy-img": "gulp copyOptimizeImages",
+    "gulp-opt-img": "gulp doOptimizeImages",
+    "scully": "scully",
+    "scully:serve": "scully serve"
+  }
+  ```
 
  
