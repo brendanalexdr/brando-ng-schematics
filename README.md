@@ -100,13 +100,14 @@ Update `tslint.json` file to extend this package:
   
 }
 ```
-## GOOGLE ANALYTICS
+## GOOGLE ANALYTICS AND SITEMAP.XML
 Add the following to angular.json
 ```json
 "architect": {
     "options": {
         "assets": [
-              "apps/PATH/src/googlexzxzxzxz.html"
+              "apps/PATH/src/googlexzxzxzxz.html",
+              "apps/PATH/src/sitemap.xml"
             ]
     }
 }
