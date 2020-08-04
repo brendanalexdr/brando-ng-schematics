@@ -22,14 +22,15 @@ To package json
     "ds-project": {
         "projectType": "application",
         ...
-        "architect": {
-            "build": {
-                ...
-                "stylePreprocessorOptions": {
-                    "includePaths": [ "libs/ui/src/lib/styles" ]
-                },
-                "extractCss": true,
-                ...
+         "architect": {
+        "build": {
+          "options": {
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "libs/ur/src/lib/styles/src/lib/viewport/_index.scss"
+              ]
+            }
+          }
 ```
 
 
