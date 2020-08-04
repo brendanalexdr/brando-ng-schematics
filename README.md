@@ -21,7 +21,6 @@ To package json
 "projects": {
     "ds-project": {
         "projectType": "application",
-        ...
          "architect": {
         "build": {
           "options": {
