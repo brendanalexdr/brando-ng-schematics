@@ -18,6 +18,7 @@ To package json
 -  [Sharing styles between apps inside Nx workspace](https://dev.to/vitorstick/sharing-styles-between-apps-inside-nx-workspace-20i5)
 
 ```json
+// angular.json
 "projects": {
     "ds-project": {
         "projectType": "application",
