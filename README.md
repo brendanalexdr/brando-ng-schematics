@@ -15,6 +15,7 @@ To package json
     npm install sanitize.css --save
 -  create styles.scss
 -  create styles folder structure with boilerplate
+-  [Sharing styles between apps inside Nx workspace](https://dev.to/vitorstick/sharing-styles-between-apps-inside-nx-workspace-20i5)
 
 
 
