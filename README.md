@@ -100,3 +100,14 @@ Update `tslint.json` file to extend this package:
   
 }
 ```
+## GOOGLE ANALYTICS
+Add the following to angular.json
+```json
+"architect": {
+    "options": {
+        "assets": [
+              "apps/PATH/src/googlexzxzxzxz.html"
+            ]
+    }
+}
+```
