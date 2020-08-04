@@ -17,7 +17,20 @@ To package json
 -  create styles folder structure with boilerplate
 -  [Sharing styles between apps inside Nx workspace](https://dev.to/vitorstick/sharing-styles-between-apps-inside-nx-workspace-20i5)
 
-
+```json
+"projects": {
+    "ds-project": {
+        "projectType": "application",
+        ...
+        "architect": {
+            "build": {
+                ...
+                "stylePreprocessorOptions": {
+                    "includePaths": [ "libs/ui/src/lib/styles" ]
+                },
+                "extractCss": true,
+                ...
+```
 
 
 ## Install Gulp depenencies
