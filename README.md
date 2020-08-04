@@ -115,6 +115,7 @@ Add the following to angular.json
 
 ## SCULLY.IO
 -  [Scully Installation](https://scully.io/docs/learn/getting-started/installation/)
+-  [https://github.com/scullyio/scully](https://github.com/scullyio/scully)
 ```bash
 npm install @scullyio/init
 nx g @scullyio/init:install -- --project=<projectName>
